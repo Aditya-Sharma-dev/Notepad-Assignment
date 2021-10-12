@@ -3,24 +3,24 @@ import "./Label.css";
 import TextSelector from "text-selection-react";
 
 function Label(props) {
-    const handler = (html, text) => {
-        console.log("text", text);
-        console.log("html", html);
-      };
+  const handler = (html, text) => {
+    console.log("text", text);
+    console.log("html", html);
+  };
   const handleChange = () => {
     //   console.log("Radio ${props.num} is clicked");
     <TextSelector
       unmark={true}
       unmarkText="X"
-        events={[
-          {
-            text: "",
-            handler: handler,
-          },
-        ]}
-        color={props.color}
-        colorText={true}
-      />
+      events={[
+        {
+          text: "",
+          handler: handler,
+        },
+      ]}
+      color={props.color}
+      colorText={true}
+    />;
   };
   return (
     <>
@@ -31,7 +31,7 @@ function Label(props) {
             type="radio"
             name="flexRadioDefault"
             id="flexRadioDefault1"
-            onChange ={handleChange}
+            onChange={handleChange}
             checked={props.checked}
           />
           <div className={`label_icon ${props.color}`}></div>

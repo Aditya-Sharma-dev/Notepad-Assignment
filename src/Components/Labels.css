@@ -1,13 +1,12 @@
-.labels{
-    background-color: white;
-    flex: 0.2;
-    margin-top: 55px;
-    border: 1px solid gray;
-    padding: 5px;
+.labels {
+  background-color: white;
+  flex: 0.2;
+  margin-top: 55px;
+  border: 1px solid gray;
+  padding: 5px;
 }
-.contain{
-    display: flex;
-    flex-direction: column;
-    margin-top: 10px;
-    
+.contain {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
 }

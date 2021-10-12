@@ -2,23 +2,23 @@ import React from "react";
 import TextSelector from "text-selection-react";
 
 function Textselector(props) {
-    const handler = (html, text) => {
-        console.log("text", text);
-        console.log("html", html);
-      };
+  const handler = (html, text) => {
+    console.log("text", text);
+    console.log("html", html);
+  };
   return (
-      <TextSelector
+    <TextSelector
       unmark={true}
       unmarkText="X"
-        events={[
-          {
-            text: "",
-            handler: handler,
-          },
-        ]}
-        color={props.color}
-        colorText={true}
-      />
+      events={[
+        {
+          text: "",
+          handler: handler,
+        },
+      ]}
+      color={props.color}
+      colorText={true}
+    />
   );
 }
 

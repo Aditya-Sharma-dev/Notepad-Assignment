@@ -1,12 +1,12 @@
-.sidebar{
-    background-color: white;
-    height: 100%;
-    width: 20px;
-    margin-top: 55px;
-    flex: 0.2;
-    border: 1px solid gray;
-    border-radius: 4px;
+.sidebar {
+  background-color: white;
+  height: 100%;
+  width: 20px;
+  margin-top: 55px;
+  flex: 0.2;
+  border: 1px solid gray;
+  border-radius: 4px;
 }
-.sidebar>nav{
-    margin-left: 20px;
+.sidebar > nav {
+  margin-left: 20px;
 }
