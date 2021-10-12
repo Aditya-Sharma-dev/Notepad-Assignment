@@ -1,0 +1,17 @@
+.container:hover {
+  cursor: pointer;
+  background-color: #e5e7e3;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  flex: 1;
+}
+.number {
+  flex: 0.2;
+}
+.content {
+  flex: 0.7;
+}
+

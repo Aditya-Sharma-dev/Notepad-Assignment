@@ -1,0 +1,38 @@
+.label_icon{
+        float: left;
+        height: 20px;
+        width: 20px;
+        
+        clear: both;
+        margin: 5px;
+        border-radius: 5px;
+}
+.label{
+    display: flex;
+}
+.label:hover{
+    background-color: rgb(157, 175, 165);
+    cursor: pointer;
+}
+.form-check-label:hover{
+    background-color: rgb(157, 175, 165);
+    cursor: pointer;
+}
+.form-check{
+    display: flex;
+}
+.form-check-input:hover{
+    cursor: pointer;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+.yellow{
+    background-color: yellow;
+}
